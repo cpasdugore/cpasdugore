@@ -1,0 +1,93 @@
+body {
+  font-family: Helvetica, sans-serif;
+  /* background-image: url("bg.png"); */
+  background-color: rgba(71, 71, 71, 0.644);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+
+  margin-top: 5%;
+  border: 5px solid red;
+}
+
+.formules {
+  border: 2px solid yellow;
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+}
+
+.payant {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.247);
+  width: 20%;
+  border-radius: 5%;
+  
+}
+
+.payant h3:nth-child(6) {
+  color: rgb(0, 162, 255);
+  text-decoration: underline;
+}
+
+.gratuit {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.247);
+  width: 20%;
+  border-radius: 5%;
+}
+
+.gratuit h3:nth-child(4) {
+  color: red;
+  text-decoration: line-through;
+}
+.gratuit h3:nth-child(5) {
+  color: red;
+  text-decoration: line-through;
+}
+
+.gratuit h3:nth-child(6) {
+  color: red;
+  text-decoration: line-through;
+}
+
+h2 {
+  color: rgb(0, 255, 64);
+  text-decoration: underline;
+  font-size: 2rem;
+}
+
+h3 {
+  color: white;
+}
+
+input[type="button"] {
+  background-color: #f2f2f2;
+  padding: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input[type="button"]:hover {
+  color: red;
+}
+
+.warning {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+
+  height: 300px;
+}
+.warning h6 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  cursor: pointer;
+}
