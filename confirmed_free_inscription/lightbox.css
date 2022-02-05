@@ -1,0 +1,22 @@
+.petite, .grande {
+    cursor: pointer
+}
+
+.grande {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.grande img {
+    width: 20%;
+    border: 4px white solid;
+    border-radius: 5px;
+}
